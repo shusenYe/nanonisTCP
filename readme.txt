@@ -1,6 +1,7 @@
 =========================================================================
 NanonisTCP class Description
 =========================================================================
+Control your Scanning Probe Microscopy(Nanonis) in Matlab.
 
 Based on Nanonis TCP interface
 Usual Module in the Manual, 'TCPProtocol_SPM.pdf', has been realized in this this class.
