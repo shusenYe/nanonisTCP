@@ -41,7 +41,7 @@ classdef TCPNanonisUserOut < handle
         end
         
         function varargout = CalcSignalNameGet(obj, outputIdx)
-            [varargout{1:nargout}] = TCPQuery(obj.tcpobj, 'UserOut.CalcSignalNameGet', 'string', int32(outputIdx);
+            [varargout{1:nargout}] = TCPQuery(obj.tcpobj, 'UserOut.CalcSignalNameGet', 'string', int32(outputIdx));
         end
         
         function varargout = LimitsSet(obj, outputIdx, upperLim, lowerLim)
